@@ -1,0 +1,54 @@
+body {
+  background-image: url(050718_EC_numbers_feat.jpg);
+}
+
+.titleHeading {
+  text-align: center;
+  color: rgb(18, 17, 17);
+  text-shadow: 2px 2px 2px #b5e0ec;
+}
+
+.container {
+  max-width: 400px;
+  margin: 1vh auto 0 auto;
+  box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+}
+
+#display {
+  text-align: right;
+  height: 55px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 25px;
+  border: 0.5px solid #999;
+  background-color: rgb(229, 250, 124);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button {
+  border: 0.5px solid #999;
+  line-height: 80px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.equal {
+  background-color: rgb(194, 19, 19);
+}
+
+#equal {
+  background-color: rgb(85, 85, 255);
+  color: white;
+}
+
+.button:hover {
+  background-color: #323330;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
